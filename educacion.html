@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos HTML</title>
+  </head>
+  <body>
+    <svg >
+      <image xlink:href="images/logo.svg" width="150px" height="100px"></image>
+    </svg>
+
+      <header>
+        <h1>Hoja de Vida</h1>
+
+
+        <h2>Fernando Chutchurru</h2>
+        <h3>Nacionalidad Argentina</h3>
+        <h3>Fecha de Nacimiento 16/04/1980</h3>
+      </header>
+
+      <nav>
+        <a href="index.html">Inicio</a> | <a href="educacion.html">Educacion</a> | <a href="experiencia.html">Experiencia</a>
+      </nav>
+
+      <section>
+        <h2> Educacion</h2>
+
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1996</td>
+              <td>Velez</td>
+              <td>Liniers</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1998</td>
+              <td>Sacachispas</td>
+              <td>Lejos</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2007</td>
+              <td>UTN</td>
+              <td>Mataderos</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+      <form>
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+          <label for="anio">Año</label>
+          <select class="anio" name="anio">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+          </select>
+          <br>
+          <label for="institucion">Institución</label>
+          <input type="text" name="institucion" value="" placeholder="Ingrese instituto">
+          <br>
+          <label for="lugar">Lugar</label>
+          <input type="text" name="lugar" value=""placeholder="Ingrese Localidad">
+          <br>
+          <input type="button" name="Enviar" value="Enviar">
+        </fieldset>
+      </form>
+      <footer>
+        Correo: fchutchurru@gmail.com | Telefono: 4444-6666 | Facebook: ChutchurruF
+      </footer>
+
+  </body>
+</html>
